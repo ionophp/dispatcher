@@ -41,7 +41,6 @@ function invariant(
     }
     $error = null;
     if (!$condition) {
-
         if ($format === '') {
             $error = new InvariantException(
                 'Minified exception occurred; use the non-minified dev environment ' .
