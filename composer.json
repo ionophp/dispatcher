@@ -1,0 +1,30 @@
+{
+  "name": "ionophp/dispatcher",
+  "description": "flux style dispatcher",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "keywords": [
+    "dispatcher"
+  ],
+  "authors": [
+    {
+      "name": "yuuki takezawa",
+      "email": "yuuki.takezawa@comnect.jp.net"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.0",
+    "satooshi/php-coveralls": "dev-master"
+  },
+  "autoload": {
+    "files": [
+      "src/invariant.php"
+    ],
+    "psr-4": {
+      "Iono\\Dispatcher\\": "src/"
+    }
+  }
+}
